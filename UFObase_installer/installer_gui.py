@@ -112,11 +112,9 @@ class SoftwareReleaseInstallerGui:
     @staticmethod
     def rename_files_without_custom_config_new_ufo_configs(val_, ufo_configs):
         names = os.listdir(
-            r"C:\Users\narshinskiy\Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO "
-            r"Base\UFOBaseV3_5\config_FirstComm")
+            r"C:\Users\your_login\UFOBaseV3_5\config_FirstComm")
         os.chdir(
-            r"C:\Users\narshinskiy\Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO "
-            r"Base\UFOBaseV3_5\config_FirstComm")
+            r"C:\Users\your_login\UFOBaseV3_5\config_FirstComm")
         for name in names:
             if "192.168" in name and "ufo_" in name and ".ini" in name or "VGPS" in name:
                 os.remove(rf"C:\UFOBaseV3_5\{val_}\{name}")
@@ -167,11 +165,9 @@ class SoftwareReleaseInstallerGui:
     @staticmethod
     def rename_files_without_custom_config_new_ufo_configs_2(all_new_ufos):
         names = os.listdir(
-            r"C:\Users\narshinskiy\Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO "
-            r"Base\UFOBaseV3_5\config_FirstComm")
+            r"C:\Users\your_login\UFOBaseV3_5\config_FirstComm")
         os.chdir(
-            r"C:\Users\narshinskiy\Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO "
-            r"Base\UFOBaseV3_5\config_FirstComm")
+            r"C:\Users\your_login\UFOBaseV3_5\config_FirstComm")
 
         # 30 UFO
         types = []
@@ -201,12 +197,10 @@ class SoftwareReleaseInstallerGui:
 
     @staticmethod
     def rename_files_without_custom_config_new_ufo_configs_3(all_new_ufos):
-        names = os.listdir(
-            r"C:\Users\narshinskiy\Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO "
-            r"Base\UFOBaseV3_5\config_FirstComm")
+       names = os.listdir(
+            r"C:\Users\your_login\UFOBaseV3_5\config_FirstComm")
         os.chdir(
-            r"C:\Users\narshinskiy\Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO "
-            r"Base\UFOBaseV3_5\config_FirstComm")
+            r"C:\Users\your_login\UFOBaseV3_5\config_FirstComm")
 
         # 30 UFO
         types = []
