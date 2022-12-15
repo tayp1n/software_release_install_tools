@@ -12,8 +12,7 @@ def create_folder(val):
 
 def copy_config_folder():
     shutil.copytree(
-        rf"C:\Users\{os.getlogin()}\
-        Humanetics\Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO Base\UFOBaseV3_5\config_FirstComm",
+        rf"C:\Users\{os.getlogin()}\UFOBaseV3_5\config_FirstComm",
         'C:/UFOBaseV3_5/config_FirstComm')
 
 
@@ -57,8 +56,7 @@ def copy_folder():
     # copy the folder
     try:
         shutil.copytree(
-            rf"C:\Users\{os.getlogin()}\Humanetics\
-            Summer Internships - Documents\Release v4.1.0\UFO-1-9060 UFO Base\UFOBaseV3_5",
+            rf"C:\Users\{os.getlogin()}\Release\Base\UFOBaseV3_5",
             'C:/UFOBaseV3_5')
     except:
         print("There is no that folder named 'UFOBaseV3_5'")
